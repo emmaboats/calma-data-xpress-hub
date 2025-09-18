@@ -1,0 +1,21 @@
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:#f8fafc; margin:0; padding:0; }
+.max-w-4xl{ max-width: 64rem; margin-left:auto; margin-right:auto; }
+.p-4{ padding:1rem; }
+.text-2xl{ font-size:1.5rem; }
+.text-3xl{ font-size:1.875rem; }
+.font-bold{ font-weight:700; }
+.bg-white{ background:white; }
+.shadow{ box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.rounded{ border-radius:0.5rem; }
+.grid{ display:grid; }
+.grid-cols-1{ grid-template-columns: 1fr; }
+@media(min-width:768px){ .md\:grid-cols-2{ grid-template-columns: repeat(2, 1fr); } }
+.border{ border:1px solid #e5e7eb; }
+.mb-4{ margin-bottom:1rem; }
+.mt-6{ margin-top:1.5rem; }
+.px-6{ padding-left:1.5rem; padding-right:1.5rem; }
+.py-3{ padding-top:0.75rem; padding-bottom:0.75rem; }
+.bg-indigo-600{ background:#4f46e5; }
+.text-white{ color:white; }
+.text-indigo-600{ color:#4f46e5; }
+.p-6{ padding:1.5rem; }
